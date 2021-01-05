@@ -36,9 +36,6 @@
     clippy::redundant_pub_crate
 )]
 
-#[allow(unused_extern_crates)]
-extern crate proc_macro;
-
 mod date;
 mod datetime;
 mod error;
